@@ -5,10 +5,11 @@ body{
 }
 .main-container{
 display: flex;
-padding: 30px 0;
+padding: 30px 30;
 flex-direction: column;
 flex-wrap: nowrap;
 align-items: center;
+
 
  
 }
@@ -47,14 +48,13 @@ img {
   justify-content: space-around;
 }
 .load-more {
-  background-color: rgb(30, 32, 158);
+  background-color: rgb(250, 165, 228);
   border-radius: 5px;
   border: none;
   padding: 10px 20px;
   color: white;
 }
 .photo-card {
-  border: 1px solid black;
   border-radius: 5px;
   width: calc((100% - 90px) / 4);
 }
